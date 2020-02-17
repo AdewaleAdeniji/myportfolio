@@ -1,0 +1,56 @@
+.skills{
+	margin-top: 10%;
+    margin-bottom: 10%;
+    width: 78%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 20px;
+    transition: .4s;
+}
+.skills:hover{
+	box-shadow: 0px 0px 10px 0px #5cb;
+}
+
+.sub{
+	font-size: 9px;
+	color: #5cb;
+	opacity: 0;
+	transition: .6s;
+}
+@media(max-width: 450px){
+	.sub{
+		display: none;
+	}
+	.skills {
+		margin-left: 5% !important;
+	}
+}
+.skills h2{
+	color: #5cb;
+	font-size: 1.5em;
+	font-family: Lato;
+	margin-left: 5%;
+}
+.items .skill{
+	display: flex;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    overflow: hidden;
+    font-family: Lato;
+}
+
+.items .skill .progess {
+	    width: 0;
+	    opacity: 0;
+    margin: 10px;
+    background: #5cb;
+    height: 9px;
+    border-radius: 5px;
+    transition: 2s;
+}
+.item .skill:hover + .items .skill .progess {
+	opacity: 1 !important;
+}

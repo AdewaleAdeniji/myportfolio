@@ -1,0 +1,84 @@
+/*body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+.hero-slider{
+	margin-top: 30px;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover !important;
+	width: 100%;
+	height: 98vh;	
+	animation-name: animbg ;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	transition: .3s;
+}
+@keyframes animbg{
+	0%{
+
+		background-image: url('1.jpg');
+		background-repeat: no-repeat;
+	}
+	50%{
+		background-image: url('2.jpg');
+		background-repeat: no-repeat;
+	}
+	75%{
+	background-image: url('3.jpg');
+	background-repeat: no-repeat;
+	}
+	100%{
+		background-image: url('1.jpg');
+		background-repeat: no-repeat;
+	}
+
+}
+.hero-slider .overlay{
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+}
+.hero-slider .overlay span{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	font-size: 4em;
+	text-align: center;
+	font-family: Lato;
+	transition: .8s;
+	width: 100%;
+	cursor: pointer;
+}	
+@media(max-width: 450px){
+	.hero-slider .overlay span{
+		font-size: 2em !important;
+	}
+}
+.letterwords{
+	font-style: normal;
+	letter-spacing: 3px;
+	color: #5cb !important;
+	animation-name: animlet ;
+	animation-duration: .8s;
+	animation-iteration-count: infinite;
+	transition: .2s;
+}
+@keyframes animlet{
+	0%{
+		color: #5cb;
+	}
+	50%{
+		color: #fff;
+	}
+}
+.aboutletters{
+	font-size:.4em !important;
+	font-weight: lighter;
+	margin-left: 0;
+
+}

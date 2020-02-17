@@ -1,0 +1,82 @@
+h1{
+	font-size: 2em;
+	margin-left: 20%;
+	text-decoration: underline;
+	color:inherit;
+	font-family: Lato;
+}
+@media(max-width: 450px){
+.projectitem {
+	width: 100% !important;
+	margin: 0;
+}
+
+}
+.projectitem{
+	width: 45%;
+	margin: 2.5%;
+	margin-bottom: 10px;
+	height:300px ;
+	max-height: 400px;
+	overflow: hidden;
+    background: #fff;
+    background-position:center;
+    background-size: cover;
+   /* border: 1px solid #eee;*/
+    border: 2px solid #5cb;
+    color: #fff;
+    justify-content: center;
+     border-bottom: 2px solid #5cb;
+    -webkit-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out;
+    position: relative;
+    top: 0;
+    border-radius: 20px;
+   
+}
+.projectitem div{
+	width: 100%;
+    padding-top: 30%;
+    border-radius: 20px;
+    height: 100%;
+    font-family: Lato;
+    font-size: 1.5em;
+    text-align: center;
+	background:rgba(0,0,0,0.7);
+	opacity: 0;
+	transition: .3s;
+}
+.projectitem div:hover{
+	opacity: 1;
+}
+.projectitem div button{
+	font-size: 0.6em !important;
+	color: #5cb;
+	border:1px solid #5cb;
+	padding:8px;
+	outline: none;
+	margin: 25px;
+	border-radius: 15px;
+	font-family: Lato;
+	background: transparent;
+	width: 50%;
+	cursor: pointer;
+	transition: .6s;
+}
+.projectitem div button:hover {
+	background: #fff !important;
+	color: #5cb !important;
+}
+button i {
+	color: inherit;
+	padding-left: 10px;
+}
+.projectitem:hover{
+	webkit-box-shadow:0 15px 40px -20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 40px -20px rgba(0, 0, 0, 0.4);
+    border: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+    /*top: -1px;*/
+}

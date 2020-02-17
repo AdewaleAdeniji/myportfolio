@@ -1,0 +1,87 @@
+.exp{
+	margin: 20px;
+}
+.exp h1{
+	font-size: 2rem;
+
+	padding-left: 40%;
+}
+@media(max-width: 450px){
+	.exp h1{
+		padding-left: 10%;
+	}
+	.exp .item .about{
+		line-height: 15px !important;
+	}
+	.exp .item{
+		
+		margin-left: 3% !important;
+	}
+	#datefor{
+		letter-spacing: 1px !important;
+	}
+}
+.exp .item{
+	width: 75%;
+	margin-bottom: 10px;
+	height: auto;
+	max-height: 400px;
+	padding: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: 2px solid #5cb;
+     border-bottom: 2px solid #5cb;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    position: relative;
+    top: 0;
+    border-radius: 20px;
+    margin-left: 7.5%;
+}
+.mydate {
+	opacity: 1 !important;
+}
+
+.exp .jobtitle{
+	color: #010101;
+	font-size: 12px;
+	padding: 10px;
+	font-family: Lato;
+	font-weight: light;
+}
+.exp .item:hover{
+	webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    border: 1px solid transparent;
+     border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    top: -2px;
+}
+.exp .item .title{
+	font-size: 1.4em;
+	font-family: Lato;
+	padding-left: 5%;
+	font-weight: bolder;
+}
+.exp .item .about{
+	font-weight: lighter;
+	font-family: Lato;
+	line-height: 24px;	
+	height: auto;
+}
+.exp .item .about li {
+	list-style-type: disc;
+	lighting-color: #5cb;
+
+}
+.exp .item #datefor{
+	opacity: 0;
+	transition: .7s;
+	font-size: 13px;
+	letter-spacing: 3px;
+	font-family: Lato;
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}

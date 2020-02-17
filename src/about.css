@@ -1,0 +1,108 @@
+.aboutsection {
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	border-radius: 20px;
+	margin-top: 79px !important;
+	height: 80vh;
+	background: #fff;
+	border: 1px solid  rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+@media(max-width: 450px){
+	.aboutsection {
+	border: none;
+	display: inline-block !important;
+	overflow: scroll !important;
+	height: auto !important;
+	border-radius: 5px !important;
+	margin: 20px !important;
+	margin-top:107px !important;
+}
+.imgsection {
+	width: 100% !important;
+}
+.text-section{
+	padding:5px !important;
+	width: 100% !important;
+	background: url('1.jpg') !important;
+	background-size: cover;
+	background-position: center;
+	color: #fff !important;
+	background-repeat: no-repeat;
+}
+.text-section:hover{
+	/*background: rgba(0,0,0,0.9) !important;*/
+	background: url('3.jpg') !important;
+	color: #fff !important;
+	background-position: center;
+}
+}
+.imgsection{
+	background: url('1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 100%;
+	background-color: #000;
+	overflow: hidden;
+}
+.text-section{
+	
+	width: 50%;
+	height: 100%;
+	padding: 20px;
+	padding-top: 20%;
+	color: #000;
+	font-weight: lighter;
+	font-family: Lato;
+	letter-spacing: 1px;
+	line-height: 30px;
+	transition: .7s;
+}
+.text-section:hover{
+	background: rgba(0,0,0,0.9);
+	/*background: url('3.jpg') !important;*/
+	color: #fff !important;
+	background-position: center;
+}
+.text-section::first-letter{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #5cb;
+}
+.imgsection img{
+	 width:300px;
+	 height:300px;
+	 border-radius: 15px;
+}
+
+.imgsection div{
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	font-size: 2em;
+	opacity: 0;
+	text-align: center;
+	font-family: Lato;
+	width: 100%;
+	padding-top: 45%;
+	transition: .5s;
+	/*animation-name: anim;*/
+	height: 100%;
+	/*animation-duration: .5s;
+	animation-iteration-count: 1;*/
+}
+.imgsection div:hover{
+	opacity: 1;
+}
+/*@keyframes anim{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}*/
+.imgsection img:hover + .imgsection img{
+	visibility: show;
+}
