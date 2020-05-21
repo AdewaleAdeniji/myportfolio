@@ -48,7 +48,7 @@ export default class Skills extends Component{
 					</div>
 					<div className="items">
 					<Skill name="Vue" details="Javascript UI Framework"/>
-					<Skill name="PHP" details="(HyperText - Preprocessor) Backend/ServerSide programming Language"/>
+					<Skill name="PHP" details="(HyperText - Preprocessor) Backend/Server-Side programming Language"/>
 					</div>
 					<div className="items">
 					<Skill name="SQL" details="(Structured Query Language) Database Query Language"/>
@@ -59,11 +59,11 @@ export default class Skills extends Component{
 					<Skill name="Figma" details="UI design mockups"/>
 					</div>
 					<div className="items">
-					<Skill name="NPM" details="Node Package Manager"/>
-					<Skill name="Cloud Deployment" details="Netlify,Heroku for CI/CD"/>
+					<Skill name="Node Package Manager" details=""/>
+					<Skill name="Continuos Integration and deployment" details="Netlify,Heroku and Azure"/>
 					</div>
 					<div className="items">
-					<Skill name="Babel" details="Webpack"/>
+					<Skill name="Functional Tests" details="Jest"/>
 					<Skill name="RestFUL APIs" details="RestFUL APIs consumption"/>
 					</div>
 				</div>

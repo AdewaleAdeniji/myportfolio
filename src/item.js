@@ -18,7 +18,7 @@ class App extends Component{
 			icon:'success',
 			text:about,
 			confirmButtonColor:'#5cb',
-			footer:'Technologies Used:'+used,
+			footer:used,
 			showConfirmButton:cfmbtn,
 			showCancelButton:true,
 			confirmButtonText:'Visit App',
@@ -37,7 +37,7 @@ class App extends Component{
 		
 
 	return (
-		<div className="projectitem" style={{"backgroundImage":"url("+this.props.image+")"}} title={this.props.about}>
+		<div onClick={this.handleMore.bind(this,this.props.link,this.props.about,this.props.used)}	 className="projectitem" style={{"backgroundImage":"url("+this.props.image+")"}} title={this.props.name}>
 			<div>	{this.props.name} <br/>
 				<button onClick={this.handleMore.bind(this,this.props.link,this.props.about,this.props.used)}>Details / Visit<i className="fa fa-angle-double-right"></i> </button>
 			</div>

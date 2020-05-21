@@ -52,7 +52,7 @@ work very closely together )
 					</li>
 					</ul>
 					</span>
-					<span id="datefor" className="mydate">December 2017 - December 2019</span>
+					
 				</div>
 			</div>
 			)

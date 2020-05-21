@@ -26,6 +26,9 @@
 		margin-left: 5% !important;
 	}
 }
+sup{
+	display: inline-flex;
+}
 .skills h2{
 	color: #5cb;
 	font-size: 1.5em;

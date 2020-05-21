@@ -13,6 +13,10 @@ import BatteryLife from './ba3.png';
 import DevFest from './devfest.png';
 import pulumi from './pulumi.png';
 import SwipeChat from './swipechat.png';
+import Bible from './bible.jpg';
+import Jobs from './thisjob.jpg';
+import Budget from './budgetapp.jpg';
+
 
 export default class App extends Component{
 	constructor(props){
@@ -39,6 +43,16 @@ export default class App extends Component{
 			</div>
 			<div className="items">
 			<Item name="Love Calculator" image={LoveApp} link="https://loveapp.netlify.com" about="Love was just a fun app where you enter two names of lovers(Male and Female) then It returns your love strength..It fetches the love strength from a rapidapi love Calculator" used="HTML5,CSS3,JAVASCRIPT(ES6),REACT(Redux),RESTFul API"/>
+		
+			<Item name="Love Calculator" image={Bible} link="https://thebibleapp.netlify.com/"
+			 about="This is a simple bible app,It fetches the chapters and books from a json and feed it back to the user in a nice way,It supports offline viewing,dark mode and of course It is a progressive web app"
+			  used="HTML5,CSS3,JAVASCRIPT(ES6),REACT(Redux),JSON"/>
+			  </div>
+			  <div className="items">
+			<Item name="Love Calculator" image={Budget} link="https://budgetty.netlify.com/"
+			 about="Budget App is a web app for saving up your shopping lists digitally,You can save,edit and delete your shopping list,Makes it easy for a user to easily remember,speculate,calculate their budget according to their revenue"
+			  used="HTML5,CSS3,JAVASCRIPT(ES6),REACT(Redux)"/>
+
 			<Item name="Battery Life" image={BatteryLife} link="https://batterylife.netlify.com" about="BatteryLife is a smart web app for monitoring your battery life and statistics.This app makes it easier to measure how your battery charged at each percentage and of course how it discharged from each percentage and so many other functionalities like the text to speech which talks to you about your battery level" used="HTML5,CSS3,JAVASCRIPT(ES6),JQUERY,SWEETALERT,Bootstrap4"/>
 			</div>
 			<div className="items">

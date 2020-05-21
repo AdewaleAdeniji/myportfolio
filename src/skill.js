@@ -33,7 +33,9 @@ export default class Skill extends Component{
 		return(
 				
 					<div className="skill" onMouseOver={this.handleOver} onMouseOut={this.handleOut}>
-						<sup>{this.props.name}</sup><sub className="sub">{this.props.details}</sub> <div className="progess"><div className="bar"></div></div>
+						<sup>{this.props.name}</sup>
+						<sub className="sub">{this.props.details}</sub> 
+						
 					</div>
 
 				

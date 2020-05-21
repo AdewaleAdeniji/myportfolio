@@ -81,7 +81,7 @@ export default class App extends Component {
 		<div className="footer">
 			<div className="items">
 			<div className="form">
-				<form data-netlify="true" method="POST" id="form">
+				<form data-netlify="true" name="contactform" method="POST" id="form">
 				<h4>{this.state.msg}</h4>
 					<input type="text" placeholder="Enter a message"  onChange={this.handleMsg.bind(this)} required={true} name="Email Address"/>
 					<input type="email" placeholder="Your Email Address" onChange={this.handleEmail.bind(this)} name="Email Address" required={true}/>
