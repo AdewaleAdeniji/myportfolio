@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {BrowserRouter,Route} from 'react-router-dom';
+import {BrowserRouter,Route,HashRouter} from 'react-router-dom';
 import Nav from './nav';
 import App from './App';
 import Footer from './footer';
@@ -12,7 +12,7 @@ import Projects from './projects.js';
 export default class Main extends Component{
 	render(){
 		return (
-			<BrowserRouter>
+			<HashRouter>
 			<Nav />
 			<Route exact path="/" component={App}/>
 			<Route path="/experience" component={Exp}/>
@@ -20,7 +20,7 @@ export default class Main extends Component{
 			<Route path="/projects" component={Projects}/>
 			<Route path="/skills" component={Skills}/>
 			<Footer />
-			</BrowserRouter>
+			</HashRouter>
 		)
 	}	
 
